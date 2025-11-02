@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ Accordion</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/javascipt/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Some Frequently Asked Questions</h1>
+    <div class="faq-container">
+      <div class="faq">
+        <h3 class="faq-question">What is event delegation?</h3>
+        <p class="faq-answer">
+          Event delegation is a technique in JavaScript where you attach a single event listener to a parent element to
+          manage events for multiple child elements.
+        </p>
+      </div>
+      <div class="faq">
+        <h3 class="faq-question">What is event delegation?</h3>
+        <p class="faq-answer">
+          Event delegation is a technique in JavaScript where you attach a single event listener to a parent element to
+          manage events for multiple child elements.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-question">Why is event delegation useful?</h3>
+        <p class="faq-answer">
+          It improves performance, reduces memory usage, and simplifies code by avoiding multiple event listeners for
+          similar elements.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-question">How does event delegation work?</h3>
+        <p class="faq-answer">
+          It works because of event bubbling — when an event occurs on a child element, it bubbles up to its parent,
+          allowing the parent to handle it.
+        </p>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-question">What is event bubbling?</h3>
+        <p class="faq-answer">
+          Event bubbling is the process where an event starts from the target element and moves upward through its
+          ancestors in the DOM.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
